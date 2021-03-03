@@ -20,7 +20,7 @@ def twoNumberSumByHashMap(arr , target):
             nums[num] = True
     return []
 
-    def twoNumberSumBySort(arr ,target):
+def twoNumberSumBySort(arr ,target):
         arr.sort()
         left = 0
         right = len(arr) - 1
